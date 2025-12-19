@@ -4,6 +4,12 @@ import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
 export const Home = () => {
 
   const {store, dispatch} =useGlobalReducer()
+  useEffect(()=>{
+
+	//LLAMAMOS AL SERVICIO
+
+	//DISPACTH {type:'add_new_contact',payload: (//DATA//)}
+  },[])
 
 	return (
 		<div className="text-center mt-5">
